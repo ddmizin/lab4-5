@@ -17,6 +17,7 @@ class TriangleTestCase(unittest.TestCase):
 def area(a, h): 
     '''Принимает длинну стороны и длинну высоты треугольника(a,h) и возвращает площадь'''
     return a * h / 2 
+    
 
 def perimeter(a, b, c): 
     '''Принимает длинны 3 сторон треугольника(a,b,c) и возвращает его периметр'''
